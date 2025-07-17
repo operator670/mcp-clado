@@ -1,5 +1,7 @@
 # Clado MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@operator670/mcp-clado)](https://smithery.ai/server/@operator670/mcp-clado)
+
 This is an official Model Context Protocol (MCP) Server for Clado.
 
 For detailed API documentation and usage examples, visit the [official Clado documentation](https://docs.clado.ai/).
@@ -15,6 +17,14 @@ More information about the Model Context Protocol can be found [here](https://mo
 - [License](#license)
 
 ## Installation
+
+### Installing via Smithery
+
+To install mcp-clado for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@operator670/mcp-clado):
+
+```bash
+npx -y @smithery/cli install @operator670/mcp-clado --client claude
+```
 
 ### Manual Installation
 To install the server, run:
